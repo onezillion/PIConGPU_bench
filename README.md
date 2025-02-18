@@ -29,9 +29,15 @@ input files and source code of PIConGPU for benchmark
 
   After extracting the input file package `./picongpu_picinputs_new.tar`, you will find the input configuration files for the specified benchmark simulations here:
 
-  `./myLWFA/etc/picongpu/bench_{x}_h.cfg`, where x is in [1, 2, 4, 8], corresponding to the simulation configurations for 1, 2, 4, and 8 GPUs.
+  `./myLWFA/etc/picongpu/bench_{x}_h.cfg`, where x is in [1, 2, 4, 8, 128], corresponding to the simulation configurations for 1, 2, 4, 8 and 128 GPUs.
 
+- Execution via the built-in `tbg` command:
+  
+  https://picongpu.readthedocs.io/en/latest/usage/tbg.html
 
+  https://picongpu.readthedocs.io/en/latest/install/profiles/taurus-tud/Slurm_Tutorial.html
+
+  When using the built-in `tbg` command to execute the simulation, a `.tpl` file should be included. Example files can be found in `./myLWFA/etc/picongpu/bash/*.tpl`.
 
 
 
