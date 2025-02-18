@@ -53,8 +53,15 @@ input files and source code of PIConGPU for benchmark
 
  When executing a simulation using the built-in `tbg` command, both a `.tpl` file and a configuration file `.cfg` must be included.
 
+- Screenshots:
 
+  ![image](https://github.com/user-attachments/assets/1c6f4f90-cb9f-4167-a728-f5b7f3c44e78)
 
+  ![image](https://github.com/user-attachments/assets/027ae19a-10e4-45d4-ada1-d3c008afa553)
+
+  ![image](https://github.com/user-attachments/assets/753dc94b-7661-459b-b04e-17d2d65df477)
+
+  ![image](https://github.com/user-attachments/assets/8c65f98f-8fdb-4d25-884d-032d52359f68)
 
 
 
