@@ -15,7 +15,7 @@ input files and source code of PIConGPU for benchmark
 
   https://narlabshq-my.sharepoint.com/:u:/g/personal/2303147_narlabs_org_tw/EYE7mbjqlLlFj6CIFzoC5xUBrJT91t116nxBR9rmXgBV0A?e=75jfX8
 
-  `picongpu_main.tar` MD5 checksum: `dc00a84ee9ce7ec9925a955ee23ee88e`
+  `picongpu_main.tar` MD5 checksum: `148fdf31e997318deafec0ddf6410ff7`
 
 - Dependencies and installation:
 
@@ -33,7 +33,7 @@ input files and source code of PIConGPU for benchmark
 
 - Necessary input files for the specified benchmark simulations:
 
-  `picongpu_picinputs_new.tar` MD5 checksum: `2aac9212a7293f8956472fe3f1e87d90`
+  `picongpu_picinputs_new.tar` MD5 checksum: `7c6d3687e79242ec8e6024de3b8b9f28`
 
   Extract the package `./picongpu_picinputs_new.tar` in this repository on a Linux system.
 
