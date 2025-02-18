@@ -15,6 +15,8 @@ input files and source code of PIConGPU for benchmark
 
   https://narlabshq-my.sharepoint.com/:u:/g/personal/2303147_narlabs_org_tw/EYE7mbjqlLlFj6CIFzoC5xUBrJT91t116nxBR9rmXgBV0A?e=75jfX8
 
+  `picongpu_main.tar` md5: `dc00a84ee9ce7ec9925a955ee23ee88e`
+
 - Installation and dependencies:
 
   https://github.com/ComputationalRadiationPhysics/picongpu/blob/dev/INSTALL.rst
@@ -23,7 +25,9 @@ input files and source code of PIConGPU for benchmark
 
   https://picongpu.readthedocs.io/en/latest/index.html
 
-- Input files for the specified benchmark simulations: 
+- Input files for the specified benchmark simulations:
+
+  `picongpu_picinputs_new.tar` md5: `2aac9212a7293f8956472fe3f1e87d90`
 
   Extract the `./picongpu_picinputs_new.tar` package in this repository on a Linux system.
 
