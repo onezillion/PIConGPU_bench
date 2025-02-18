@@ -15,9 +15,9 @@ input files and source code of PIConGPU for benchmark
 
   https://narlabshq-my.sharepoint.com/:u:/g/personal/2303147_narlabs_org_tw/EYE7mbjqlLlFj6CIFzoC5xUBrJT91t116nxBR9rmXgBV0A?e=75jfX8
 
-  `picongpu_main.tar` md5: `dc00a84ee9ce7ec9925a955ee23ee88e`
+  `picongpu_main.tar` MD5 checksum: `dc00a84ee9ce7ec9925a955ee23ee88e`
 
-- Installation and dependencies:
+- Dependencies and installation:
 
   https://github.com/ComputationalRadiationPhysics/picongpu/blob/dev/INSTALL.rst
 
@@ -31,19 +31,29 @@ input files and source code of PIConGPU for benchmark
 
   https://picongpu.readthedocs.io/en/latest/install/profiles/taurus-tud/Slurm_Tutorial.html
 
-  When using the built-in `tbg` command to execute the simulation, a `.tpl` file and a configure file `.cfg` should be included. Example files can be found in `./myLWFA/etc/picongpu/bash/*.tpl` and in `./myLWFA/etc/picongpu/*.cfg`.
+- Necessary input files for the specified benchmark simulations:
 
-- Input files for the specified benchmark simulations:
+  `picongpu_picinputs_new.tar` MD5 checksum: `2aac9212a7293f8956472fe3f1e87d90`
 
-  `picongpu_picinputs_new.tar` md5: `2aac9212a7293f8956472fe3f1e87d90`
+  Extract the package `./picongpu_picinputs_new.tar` in this repository on a Linux system.
 
-  Extract the `./picongpu_picinputs_new.tar` package in this repository on a Linux system.
+  After extraction, the necessary input files for the specified benchmark simulations can be found in the following locations:
 
-  After extracting the input file package `./picongpu_picinputs_new.tar`, you will find the input configuration files for the specified benchmark simulations here:
+  - Configuration Files:
+  
+    `./myLWFA/etc/picongpu/bench_{x}_h.cfg` - Configuration files for the specified benchmark simulations, where x is in [1, 2, 4, 8, 128], corresponding to simulation setups for 1, 2, 4, 8, and 128 GPUs.
 
-  `./myLWFA/etc/picongpu/bench_{x}_h.cfg`, where x is in [1, 2, 4, 8, 128], corresponding to the simulation configurations for 1, 2, 4, 8 and 128 GPUs.
+  - Execution Scripts:
 
-  `./myLWFA/etc/picongpu/bash/*.tpl` for 
+    `./myLWFA/etc/picongpu/bash/*.tpl` - Example scripts for executing the simulation with the built-in `tbg` command.
+
+  - Parameter Files:
+
+    `./myLWFA/include/picongpu/param/*.param` - Required parameter files for compilation. These `*.param` files are automatically used during the compilation process.
+
+ When executing a simulation using the built-in `tbg` command, both a `.tpl` file and a configuration file `.cfg` must be included.
+
+
 
 
 
