@@ -51,7 +51,7 @@ input files and source code of PIConGPU for benchmark
 
     `./myLWFA/include/picongpu/param/*.param` - Required parameter files for compilation. These `*.param` files are automatically used during the compilation process.
 
- When executing a simulation using the built-in `tbg` command, both a `.tpl` file and a configuration file `.cfg` must be included.
+   When executing a simulation using the built-in `tbg` command, both a `.tpl` file and a configuration file `.cfg` must be included.
 
 - Screenshots:
 
