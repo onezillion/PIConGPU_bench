@@ -39,7 +39,7 @@ input files and source code of PIConGPU for benchmark
 
   After extraction, the necessary input files for the specified benchmark simulations can be found in the following locations:
 
-  - Configuration Files:
+  - Simulation configuration Files:
   
     `./myLWFA/etc/picongpu/bench_{x}_h.cfg` - Configuration files for the specified benchmark simulations, where x is in [1, 2, 4, 8, 128], corresponding to simulation setups for 1, 2, 4, 8, and 128 GPUs.
 
@@ -47,7 +47,7 @@ input files and source code of PIConGPU for benchmark
 
     `./myLWFA/etc/picongpu/bash/*.tpl` - Example scripts for executing the simulation with the built-in `tbg` command.
 
-  - Parameter Files:
+  - Compilation parameter Files:
 
     `./myLWFA/include/picongpu/param/*.param` - Required parameter files for compilation. These `*.param` files are automatically used during the compilation process.
 
