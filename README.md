@@ -25,6 +25,14 @@ input files and source code of PIConGPU for benchmark
 
   https://picongpu.readthedocs.io/en/latest/index.html
 
+- Execution of simulation via the built-in `tbg` command:
+  
+  https://picongpu.readthedocs.io/en/latest/usage/tbg.html
+
+  https://picongpu.readthedocs.io/en/latest/install/profiles/taurus-tud/Slurm_Tutorial.html
+
+  When using the built-in `tbg` command to execute the simulation, a `.tpl` file and a configure file `.cfg` should be included. Example files can be found in `./myLWFA/etc/picongpu/bash/*.tpl` and in `./myLWFA/etc/picongpu/*.cfg`.
+
 - Input files for the specified benchmark simulations:
 
   `picongpu_picinputs_new.tar` md5: `2aac9212a7293f8956472fe3f1e87d90`
@@ -35,13 +43,9 @@ input files and source code of PIConGPU for benchmark
 
   `./myLWFA/etc/picongpu/bench_{x}_h.cfg`, where x is in [1, 2, 4, 8, 128], corresponding to the simulation configurations for 1, 2, 4, 8 and 128 GPUs.
 
-- Execution via the built-in `tbg` command:
-  
-  https://picongpu.readthedocs.io/en/latest/usage/tbg.html
+  `./myLWFA/etc/picongpu/bash/*.tpl` for 
 
-  https://picongpu.readthedocs.io/en/latest/install/profiles/taurus-tud/Slurm_Tutorial.html
 
-  When using the built-in `tbg` command to execute the simulation, a `.tpl` file should be included. Example files can be found in `./myLWFA/etc/picongpu/bash/*.tpl`.
 
 
 
